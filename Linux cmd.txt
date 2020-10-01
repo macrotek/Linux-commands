@@ -1,4 +1,4 @@
- alias    Create an alias ï
+ alias    Create an alias ‚Ä¢
   apropos  Search Help manual pages (man -k)
   apt-get  Search for and install software packages (Debian/Ubuntu)
   aptitude Search for and install software packages (Debian/Ubuntu)
@@ -9,8 +9,8 @@ b
   bash     GNU Bourne-Again SHell 
   bc       Arbitrary precision calculator language 
   bg       Send to background
-  bind     Set or display readline key and function bindings ï
-  break    Exit from a loop ï
+  bind     Set or display readline key and function bindings ‚Ä¢
+  break    Exit from a loop ‚Ä¢
   builtin  Run a shell builtin
   bzip2    Compress or decompress named file(s)
 c
@@ -29,8 +29,8 @@ c
   clear    Clear terminal screen
   cmp      Compare two files
   comm     Compare two sorted files line by line
-  command  Run a command - ignoring shell functions ï
-  continue Resume the next iteration of a loop ï
+  command  Run a command - ignoring shell functions ‚Ä¢
+  continue Resume the next iteration of a loop ‚Ä¢
   cp       Copy one or more files to another location
   cron     Daemon to execute scheduled commands
   crontab  Schedule a command to run at a later time
@@ -42,7 +42,7 @@ d
   dc       Desk Calculator
   dd       Convert and copy a file, write disk headers, boot records
   ddrescue Data recovery tool
-  declare  Declare variables and give them attributes ï
+  declare  Declare variables and give them attributes ‚Ä¢
   df       Display free disk space
   diff     Display the differences between two files
   diff3    Show differences among three files
@@ -54,10 +54,10 @@ d
   dmesg    Print kernel & driver messages 
   du       Estimate file space usage
 e
-  echo     Display message on screen ï
+  echo     Display message on screen ‚Ä¢
   egrep    Search file(s) for lines that match an extended expression
   eject    Eject removable media
-  enable   Enable and disable builtin shell commands ï
+  enable   Enable and disable builtin shell commands ‚Ä¢
   env      Environment variables
   ethtool  Ethernet card settings
   eval     Evaluate several commands/arguments
@@ -96,7 +96,7 @@ g
 h
   hash     Remember the full pathname of a name argument
   head     Output the first part of file(s)
-  help     Display help for a built-in command ï
+  help     Display help for a built-in command ‚Ä¢
   history  Command History
   hostname Print or set system name
   htop     Interactive process viewer
@@ -112,20 +112,20 @@ i
   iostat   Report CPU and i/o statistics
   ip       Routing, devices and tunnels
 j
-  jobs     List active jobs ï
+  jobs     List active jobs ‚Ä¢
   join     Join lines on a common field
 k
   kill     Kill a process by specifying its PID
   killall  Kill processes by name
 l
   less     Display output one screen at a time
-  let      Perform arithmetic on shell variables ï
+  let      Perform arithmetic on shell variables ‚Ä¢
   link     Create a link to a file 
   ln       Create a symbolic link to a file
-  local    Create a function variable ï
+  local    Create a function variable ‚Ä¢
   locate   Find files
   logname  Print current login name
-  logout   Exit a login shell ï
+  logout   Exit a login shell ‚Ä¢
   look     Display lines beginning with a given string
   lpc      Line printer control program
   lpr      Off line print
@@ -154,6 +154,7 @@ m
   mtr      Network diagnostics (traceroute/ping)
   mv       Move or rename files or directories
   mmv      Mass Move and rename (files)
+  mesg     Lets you control if people can use the ‚Äúwrite‚Äù command, to send text to you over the screen
 n
   nc       Netcat, read and write data across networks
   netstat  Networking connections/stats
@@ -177,7 +178,7 @@ p
   pr       Prepare files for printing
   printcap Printer capability database
   printenv Print environment variables
-  printf   Format and print data ï
+  printf   Format and print data ‚Ä¢
   ps       Process status
   pushd    Save and then change the current directory
   pv       Monitor the progress of data through a pipe 
@@ -189,8 +190,8 @@ r
   ram      ram disk device
   rar      Archive files with compression
   rcp      Copy files between two machines
-  read     Read a line from standard input ï
-  readarray Read from stdin into an array variable ï
+  read     Read a line from standard input ‚Ä¢
+  readarray Read from stdin into an array variable ‚Ä¢
   readonly Mark variables/functions as readonly
   reboot   Reboot the system
   rename   Rename files
@@ -225,7 +226,7 @@ s
   su       Substitute user identity
   sudo     Execute a command as another user
   sum      Print a checksum for a file
-  suspend  Suspend execution of this shell ï
+  suspend  Suspend execution of this shell ‚Ä¢
   sync     Synchronize data on disk with memory
 t
   tail     Output the last part of file
@@ -239,17 +240,18 @@ t
   top      List processes running on the system
   tput     Set terminal-dependent capabilities, color, position
   traceroute Trace Route to Host
-  trap      Execute a command when the shell receives a signal ï
+  trap      Execute a command when the shell receives a signal ‚Ä¢
   tr       Translate, squeeze, and/or delete characters
   true     Do nothing, successfully
   tsort    Topological sort
   tty      Print filename of terminal on stdin
-  type     Describe a command ï
+  type     Describe a command ‚Ä¢
+  talk     An enhancement to write command, talk command lets you talk to the logged in users.
 u
-  ulimit   Limit user resources ï
+  ulimit   Limit user resources ‚Ä¢
   umask    Users file creation mask
   umount   Unmount a device
-  unalias  Remove an alias ï
+  unalias  Remove an alias ‚Ä¢
   uname    Print system information
   unexpand Convert spaces to tabs
   uniq     Uniquify files
@@ -272,7 +274,7 @@ v
   vmstat   Report virtual memory statistics
 w
   w        Show who is logged on and what they are doing
-  wait     Wait for a process to complete ï
+  wait     Wait for a process to complete ‚Ä¢
   watch    Execute/display a program periodically
   wc       Print byte, word, and line counts
   whereis  Search the user's $path, man pages and source files for a program
@@ -282,6 +284,7 @@ w
   whoami   Print the current user id and name (`id -un')
   wget     Retrieve web pages or files via HTTP, HTTPS or FTP
   write    Send a message to another user 
+  wall      wall sends a message to everybody logged in with their mesg permission set to ‚Äúyes‚Äú
 x
   xargs    Execute utility, passing constructed argument list(s)
   xdg-open Open a file or URL in the user's preferred application.
